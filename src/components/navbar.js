@@ -1,20 +1,43 @@
-import Image from "next/image"
-
+import Image from "next/image";
+import Logo from "../../assets/Logo.svg";
+import loginArrow from "../../assets/loginArrow.svg";
+import menuBtn from "../../assets/menuButton.svg"
 
 const Navbar = () => {
   return (
     <div className="navbarContainer">
-     <div className="nameAndLogo">
-      {/* <Image/> */}
-      <div>company Name</div>
-     </div>
-     <div className="navbarMenuItems"></div>
-     <div className="loginAndSignupBtn">
-      <button>Login</button>
-      <button>Signup</button>
-     </div>
+      <div className="nameAndLogo">
+        <Image src={Logo} width={139} height={48} alt="logo" priority={false} />
+      </div>
+      <div className="navbarMenuItems">
+        <ul>
+          <li>Card acces</li>
+          <li>Banking</li>
+          <li>Processing</li>
+          <li>Abouts</li>
+          <li>Carriers</li>
+          <li>Contacts</li>
+        </ul>
+      </div>
+      <div className="loginAndMenuBtnDiv">
+        <button className="loginBtn">
+          <div className="login">Login</div>
+          <Image
+            src={loginArrow}
+            width={20}
+            height={20}
+            alt="login arrow"
+            style={{
+              marginLeft: "8px",
+            }}
+          />
+        </button>
+        <button className="menuBtn">
+          <Image src={menuBtn} width={32} height={32} alt="menu" />
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
