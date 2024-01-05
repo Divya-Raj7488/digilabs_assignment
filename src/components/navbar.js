@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Logo from "../../assets/Logo.svg";
 import loginArrow from "../../assets/loginArrow.svg";
@@ -8,12 +8,21 @@ import { useState } from "react";
 const Navbar = () => {
   const [Toggle, setToggle] = useState(false);
   const HandleMenubar = () => {
-    setToggle(!Toggle)
+    setToggle(!Toggle);
   };
   return (
     <div className="navbarContainer">
       <div className="nameAndLogo">
-        <Image src={Logo} width={139} height={48} alt="logo" priority={false} />
+        <Image
+          src={Logo}
+          width={139}
+          height={48}
+          alt="logo"
+          priority={false}
+          style={{
+            padding: "1px",
+          }}
+        />
       </div>
       <div className="navbarMenuItems">
         <ul>

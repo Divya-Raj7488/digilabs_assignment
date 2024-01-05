@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+.footer{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uiDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.modeuiDescription{
+    width: 70%;
+    min-height: 4rem;
+    height: auto;
+    text-align: center;
+}
+.modeUi{
+    font-family: Merriweather;
+}
+.footerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.footerList{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.footerList ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+    padding-left: 0.7rem;
+}
+.footerList ul li{
+    margin-top: 0.5rem;
+}
