@@ -1,9 +1,15 @@
+"use client"
 import Image from "next/image";
 import Logo from "../../assets/Logo.svg";
 import loginArrow from "../../assets/loginArrow.svg";
-import menuBtn from "../../assets/menuButton.svg"
+import menuBtn from "../../assets/menuButton.svg";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [Toggle, setToggle] = useState(false);
+  const HandleMenubar = () => {
+    setToggle(!Toggle)
+  };
   return (
     <div className="navbarContainer">
       <div className="nameAndLogo">
@@ -32,7 +38,7 @@ const Navbar = () => {
             }}
           />
         </button>
-        <button className="menuBtn">
+        <button className="menuBtn" onClick={HandleMenubar}>
           <Image src={menuBtn} width={32} height={32} alt="menu" />
         </button>
       </div>
