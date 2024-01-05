@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NearbyHome() {
+export default function ElevateCard() {
   return (
     <div>
       

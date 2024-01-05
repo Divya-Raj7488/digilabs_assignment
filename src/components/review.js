@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function BestDeals() {
+export default function Review() {
   return (
     <div>
       
