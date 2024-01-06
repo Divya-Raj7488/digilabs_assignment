@@ -1,0 +1,41 @@
+.solnContainer {
+  width: 100vw;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.solnTitle {
+  width: 50vw;
+  color: var(--Neutral-50, #121417);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+.btnBox {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.customerCare {
+  width: 12rem;
+  height: 2.75rem;
+  border-radius: 8px;
+  background: var(--Neutral-1200, #eeefef);
+  border: 1px solid #eeefef;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--Neutral-400, #5a6475);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

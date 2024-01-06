@@ -1,0 +1,41 @@
+.metric {
+  width: 100vw;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.metricBox {
+  width: 16rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.metricNum {
+  color: var(--Pri-Purple-400, #582066);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+.metricName {
+  width: 100%;
+  color: var(--Neutral-50, #121417);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.metricDescription {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
