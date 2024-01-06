@@ -70,10 +70,10 @@ const FeatureImages = () => {
   return (
     <div className="fImgContainer">
       <div className="featureImg">
-        <Image src={blackDisplay} width={394} height={326} />
+        <Image src={blackDisplay} width={394} height={326} alt="black Display" />
       </div>
       <div className="featureImg">
-      <Image src={cardImg} width={394} height={326} />
+      <Image src={cardImg} width={394} height={326} alt="card" />
       </div>
     </div>
   );

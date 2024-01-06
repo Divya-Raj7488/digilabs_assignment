@@ -1,8 +1,9 @@
 import NextGenCards from "../components/nextGenCards";
-import NewCardSoln from "../components/newCardSoln";
-import Review from "../components/review";
+import NexGenCardSoln from "../components/nextGenCardSoln";
+import Metric from "../components/metric";
 import Navbar from "../components/navbar";
 import ElevateCard from "../components/elevateCard";
+import Review from "../components/review"
 import Footer from "../components/footer";
 import { FeatureDescription,FeatureImages } from "../components/elevateCard";
 
@@ -17,8 +18,9 @@ export default function Home() {
       <ElevateCard>
         <FeatureImages />
       </ElevateCard>
+      <Metric />
       <Review />
-      <NewCardSoln />
+      <NexGenCardSoln />
       <Footer />
     </main>
   );
