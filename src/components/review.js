@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import wiselogo from "../../assets/wiselogo.svg";
 import avatar from "../../assets/avatar.svg";
-import Frame from "../../assets/Frame.svg";
+import frame from "../../assets/frame.svg";
 
 export default function Review() {
   return (
@@ -12,7 +12,7 @@ export default function Review() {
       </div>
       <div className="reviewText">
         I had the pleasure of experiencing the next generation of card solutions
-        with this incredible product. It's refreshing to see such innovation in
+        with this incredible product. It is refreshing to see such innovation in
         the financial industry.
       </div>
       <div className="reviewer">
@@ -21,10 +21,10 @@ export default function Review() {
         <div className="reviwerPosition">lead designer</div>
       </div>
       <div className="rating">
-        <Image src={Frame} width={16} height={16} alt="star" />
-        <Image src={Frame} width={16} height={16} alt="star" />
-        <Image src={Frame} width={16} height={16} alt="star" />
-        <Image src={Frame} width={16} height={16} alt="star" />
+        <Image src={frame} width={16} height={16} alt="star" />
+        <Image src={frame} width={16} height={16} alt="star" />
+        <Image src={frame} width={16} height={16} alt="star" />
+        <Image src={frame} width={16} height={16} alt="star" />
       </div>
     </div>
   );
