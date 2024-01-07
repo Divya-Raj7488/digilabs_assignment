@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import wiselogo from "../../assets/wiselogo.svg";
 import avatar from "../../assets/avatar.svg";
-import frame from "../../assets/frame.svg";
+import newFrame from "../../assets/newFrame.svg";
 
 export default function Review() {
   return (
@@ -21,10 +21,10 @@ export default function Review() {
         <div className="reviwerPosition">lead designer</div>
       </div>
       <div className="rating">
-        <Image src={frame} width={16} height={16} alt="star" />
-        <Image src={frame} width={16} height={16} alt="star" />
-        <Image src={frame} width={16} height={16} alt="star" />
-        <Image src={frame} width={16} height={16} alt="star" />
+        <Image src={newFrame} width={16} height={16} alt="star" />
+        <Image src={newFrame} width={16} height={16} alt="star" />
+        <Image src={newFrame} width={16} height={16} alt="star" />
+        <Image src={newFrame} width={16} height={16} alt="star" />
       </div>
     </div>
   );
